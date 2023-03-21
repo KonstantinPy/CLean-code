@@ -1,12 +1,15 @@
 <!DOCTYPE html>
+<html lang="en">
   <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Todo App</title>
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet" />
-    <link rel="stylesheet" href="style.css" media="screen" charset="utf-8" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" media="screen" charset="utf-8">
   </head>
   <body class="body">
     <aside class="aside">
-      <img src="./eisenhower-matrix.jpg" />
+      <img src="./eisenhower-matrix.jpg" alt="Eisenhower matrix" class="aside__img">
       <a class="link aside__link" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
     </aside>
     <main class="main">
@@ -21,18 +24,18 @@
         <h3 class="title">Todo</h3>
         <ul id="incompleted-tasks" class="list completed__list">
           <li class="task">
-            <input type="checkbox" class="checkbox" />
+            <input type="checkbox" class="checkbox">
             <label class="label todo__label">Pay Bills</label>
-            <input type="text" class="input-task todo__input-task" />
+            <input type="text" class="input-task todo__input-task">
             <button class="button button_edit">Edit</button>
-            <button class="button button_delete"><img src="./remove.svg" class="button__img"  /></button>
+            <button class="button button_delete"><img src="./remove.svg" alt="Remove button" class="button__img"></button>
           </li>
           <li class="task task_edit">
-            <input type="checkbox" class="checkbox" />
+            <input type="checkbox" class="checkbox">
             <label class="label todo__label label_editMode">Go Shopping</label>
-            <input type="text" value="Go Shopping" class="input-task todo__input-task input-task_editMode" />
+            <input type="text" value="Go Shopping" class="input-task todo__input-task input-task_editMode">
             <button class="button button_edit">Save</button>
-            <button class="button button_delete"><img src="./remove.svg" class="button__img" /></button>
+            <button class="button button_delete"><img src="./remove.svg" alt="Remove button" class="button__img"></button>
           </li>
         </ul>
       </section>
@@ -40,11 +43,11 @@
         <h3 class="title">Completed</h3>
         <ul id="completed-tasks" class="list completed__list">
           <li class="task">
-            <input type="checkbox" class="checkbox checkbox_completed" checked />
+            <input type="checkbox" checked class="checkbox checkbox_completed">
             <label class="label label_completed">See the Doctor</label>
-            <input type="text" class="input-task input-task_completed" />
+            <input type="text" class="input-task input-task_completed">
             <button class="button button_edit">Edit</button>
-            <button class="button button_delete"><img src="./remove.svg" class="button__img" /></button>
+            <button class="button button_delete"><img src="./remove.svg" alt="Remove button" class="button__img"></button>
           </li>
         </ul>
       </section>
