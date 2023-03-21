@@ -1,5 +1,5 @@
 /* Basic Style */
-body {
+.body {
   background-color: #f8f8f8;
   color: #333;
   font-family: Lato, sans-serif;
@@ -27,7 +27,8 @@ body {
   width: 500px;
   margin: 0 auto 0;
 }
-.input-task, .label {
+.input-task,
+.label {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
@@ -35,19 +36,20 @@ body {
 .add-form {
   display: flex;
 }
-ul {
+.list {
   margin: 0;
   padding: 0px;
 }
-li,
-h3 {
+.task,
+.title {
   list-style: none;
 }
-input,
-button {
+.input-task,
+.button,
+.checkbox {
   outline: none;
 }
-button {
+.button {
   background: none;
   border: 0px;
   color: #888;
@@ -56,11 +58,11 @@ button {
   font-family: Lato, sans-serif;
   cursor: pointer;
 }
-button:hover {
+.button:hover {
   color: #3a3a3a;
 }
 /* Heading */
-h3,
+.title,
 .add__label {
   color: #333;
   font-weight: 700;
